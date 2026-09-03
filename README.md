@@ -1,2 +1,1 @@
-# PrimeFinds
-Modern Flask dropshipping store
+Render sync fix
