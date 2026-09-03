@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h1 class="page-title">Checkout</h1>
+
+<form method="POST" class="checkout-form">
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <button class="btn pay-btn">Pay with Stripe</button>
+</form>
+
+{% endblock %}
